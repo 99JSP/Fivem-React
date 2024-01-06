@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "ui",
+    "shared",
+    "app"
+  ],
+  "scripts": {
+    "build": "cd app && yarn build && cd .. && cd ui && yarn build && echo 'Built'",
+    "watch:ui": "cd ui && yarn watch:game",
+    "watch:app": "cd app && yarn watch"
+  }
+}
