@@ -191,18 +191,11 @@ dist
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-.pnp.*
 
 */.yarn/*
 
 
 # custom
 
-client/node_modules
-client/dist
-
-ui/dist
-ui/build
-
-app/build
-
+node_modules
+!/packages/ui/dist/

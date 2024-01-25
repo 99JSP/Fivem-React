@@ -1,15 +1,13 @@
 # FiveM React Typescript Eslint Boilerplate
 
-Boilerplate for [FiveM](https://fivem.net/) with [React](https://reactjs.org/) [Typescript](https://www.typescriptlang.org/) [Eslint](https://eslint.org/) using [Classic Yarn](https://classic.yarnpkg.com/lang/en/) workspaces.
+Opinionated boilerplate for [FiveM](https://fivem.net/) with [React](https://reactjs.org/) JSX Vite [Typescript](https://www.typescriptlang.org/) Webpack & esbuild [Eslint](https://eslint.org/) [Prettier](https://prettier.io/) using [Lerna](https://lerna.js.org/) and yarn workspaces.
 
-Includes Eslint for client server and ui with typechecking.
-
+Includes Eslint and prettier for client server and ui with typechecking.
 
 ## Requirements
 * Brains
-* [Yarn](https://classic.yarnpkg.com/lang/en/)
-* Basic understanding of web development with react and some understanding of fivem resources.
-* Basic idea of [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+* Yarn
+* Basic understanding of web development with react and some understanding of FiveM resources.
 
 ## How to use
 1. Download this repo and extract
@@ -21,9 +19,9 @@ Includes Eslint for client server and ui with typechecking.
 
 ## Development
 
-``yarn watch:ui`` Launches web browser with UI. You can also develop in game with this mode.
+``yarn watch:web`` Launches web browser with UI. You can also develop in game with this mode.
 
-``yarn watch:app`` Starts watching for changes in client and server. Rebuilds on change. Works also in game.
+``yarn watch`` Starts watching for changes in client and server. Rebuilds on change. Works also in game.
 
 ## Building
 
@@ -32,4 +30,4 @@ Includes Eslint for client server and ui with typechecking.
 
 ## Acknowledgements
 
-React utils are from Project Error. You can read more about the utils at [Project Error react boilerplate](https://github.com/project-error/fivem-react-boilerplate-lua)
+Some utils used are from Project Error. You can read more about the utils at [Project Error react boilerplate](https://github.com/project-error/fivem-react-boilerplate-lua)
